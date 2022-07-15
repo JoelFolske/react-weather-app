@@ -5,7 +5,7 @@ function App() {
   const [weather, setWeather] = useState({});
   const [city, setCity] = useState("");
 
-  const apiKey = `eceffb1a472e1b7e52ecf3b6410a4f8a
+  const apiKey = `643117d305e4aacd0326ef49eaebd406
 `;
 
   const getWeather = (e) => {
