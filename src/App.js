@@ -11,7 +11,7 @@ function App() {
   const getWeather = (e) => {
     if (e.key === "Enter") {
       fetch(
-        `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
       )
         .then((res) => res.json())
         .then((result) => {
